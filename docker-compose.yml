@@ -1,0 +1,14 @@
+version: "3"
+services:
+  nlw-reactjs:
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    container_name: nlw-reactjs
+    stdin_open: true
+    volumes:
+      - ./:/usr/src/app
+      - ./node_modules
+    environment:
+      - NODE_ENV=development
