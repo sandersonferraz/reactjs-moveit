@@ -1,17 +1,11 @@
-import { Button } from './components/Button'
+import { ExperienceBar } from './components/ExperienceBar';
+import './styles/global.css'; // Aplicando o CSS nas páginas HTML
+
 function App() {
   return (
-    <div>
-      <Button color="Salmon">
-        Botão One
-      </Button>
-      <Button color="LightBlue" >
-        Botão two
-        </Button>
-      <Button color="Aquamarine" >
-        Botão tree
-      </Button>
-    </div>
+    <div className="container">
+      <ExperienceBar />
+    </div >
 
   );
 }
