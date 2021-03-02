@@ -22,7 +22,7 @@ export default function Home() {
           <Countdown />
         </div>
         <div>
-          teste
+
         </div>
       </section>
     </div>
