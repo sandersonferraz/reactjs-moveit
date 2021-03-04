@@ -7,6 +7,9 @@ export function ExperienceBar() {
 
     const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel;
 
+    console.log(currentExperience);
+    console.log(percentToNextLevel + ' = ' + Math.round(currentExperience * 100) + ' / ' + experienceToNextLevel);
+
     return (
         <header className={styles.experienceBar}>
             <span>0 px</span>
