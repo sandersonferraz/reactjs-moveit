@@ -34,7 +34,7 @@ export const ChallengesContext = createContext({} as ChallengesContextData);
 
 export function ChallengesProvider({
     children,
-    ...rest //O objeto rest - Pega todas as propriedades que não são children
+    ...rest
 }: ChallengesProviderProps) {
 
     const [level, setLevel] = useState(rest.level ?? 1);
